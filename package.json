@@ -1,0 +1,55 @@
+{
+  "name": "chatapp-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/base": "^5.0.0-beta.16",
+    "@mui/joy": "^5.0.0-beta.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.6.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "1. 백엔트 세팅 : 데이터베이스 세팅, 웹소켓 세팅\r 2. 프론트엔드 세팅 : 웹소켓 세팅\r 3. 백엔드 프론트엔드 연결 테스트\r 4. 유저 로그인\r 5. 메세지 주고받기",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
